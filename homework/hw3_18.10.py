@@ -10,7 +10,10 @@ first_name = "Arsen"
 last_name = "Kozhan"
 print(first_name, last_name, sep=" ")
 print(first_name + " " + last_name)
-print(f"{first_name} {last_name}", end="\n\n")
+print(f"{first_name} {last_name}")
+first_name = "Arsen"
+first_name += " Kozhan"
+print(first_name, end="\n\n")
 
 print("Task 3")
 a = 3
