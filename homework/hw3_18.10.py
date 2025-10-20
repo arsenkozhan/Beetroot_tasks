@@ -16,12 +16,13 @@ first_name += " Kozhan"
 print(first_name, end="\n\n")
 
 print("Task 3")
+# a, b = 3, 2
 a = 3
 b = 2
-print(a + b)
-print(a - b)
-print(a / b)
-print(a * b)
-print(a ** b)
-print(a // b)
-print(a % b)
+print(a+b, a-b, a/b, a*b, a**b, a//b, a%b, sep="\n")
+# print(a - b)
+# print(a / b)
+# print(a * b)
+# print(a ** b)
+# print(a // b)
+# print(a % b)
